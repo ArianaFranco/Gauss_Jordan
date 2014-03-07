@@ -4,12 +4,14 @@ This file contents Gauss_Jordan project information.
 The Gauss Jordan method can be used to solve systems of linear equations involving two ormore variables. However, 
 the system must be changed to an augmented array.
 An Augmented Matrix is used to solve a system of linear equations.
+System of Equations ⎯→
                         a1 x + b1 y + c1 z = d1 
- System of Equations ⎯→ a2 x + b2 y + c2 z = d2 
+                        a2 x + b2 y + c2 z = d2 
                         a3 x + b3 y + c3 z = d3
-                        
+                     
+ Augmented Matrix ⎯→  
                       [a1 b1 c1 | d1]
- Augmented Matrix ⎯→  [a2 b2 c2 | d2]
+                      [a2 b2 c2 | d2]
                       [a3 b3 c3 | d3]
                       [a4 b4 c4 | d4]
 
