@@ -70,7 +70,7 @@ or from another point of view.
  [0 1 0 | 1]
  [0 0 1 | 2]
  
-If array is not a quadratic array it show a error message.
+If array is not a quadratic array it show an error message.
 2> gauss:main([[3,2,-1,3,-2],[1,-1,2,4],[2,3,-1,3]]).
 Error
 ok
