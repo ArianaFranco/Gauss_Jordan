@@ -1,7 +1,7 @@
 Gauss_Jordan
 ============
 This file contents Gauss_Jordan project information.
-The Gauss Jordan method can be used to solve systems of linear equations involving two ormore variables. However, 
+The Gauss Jordan method can be used to solve systems of linear equations involving two or more variables. However, 
 the system must be changed to an augmented array.
 An Augmented Matrix is used to solve a system of linear equations.
 System of Equations ⎯→
