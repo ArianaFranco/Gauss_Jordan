@@ -6,7 +6,7 @@ pos(_,Matriz,_,Tam,Tam)->
 Matriz;
 
 pos(M,[R|T],Pos,Pos,Tam)->
-R1=[X div num(R,0,Pos)||X<-R],
+R1=[X / num(R,0,Pos)||X<-R],
 pos([],eli(R1,M++[R1]++T,Pos),0,Pos+?POS,Tam);
 pos(M,[R|T],Aux,Pos,Tam)->
 pos(M++[R],T,Aux+1,Pos,Tam).
