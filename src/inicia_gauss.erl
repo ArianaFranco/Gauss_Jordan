@@ -1,6 +1,5 @@
 -module(inicia_gauss).
 -export([gauss/2]).
--import(proce_gauss,[pos/5]).
 
 %Cambia de posición filas
 gauss(_,[],_,_)->
@@ -15,4 +14,4 @@ gauss([H=[0|_]|T],Tam)->
 gauss(H,T,0,Tam);
 %Comienza con la eliminación de gauss jordan
 gauss(R,Tam)->
-pos([],R,0,0,Tam).
+proce_gauss:pos([],R,0,0,Tam).
